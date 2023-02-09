@@ -1,0 +1,167 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;  
+    /* min-width: 587px; */
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 0.5em;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #9400D3 ;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-color:#BEBEBE;
+    border-bottom-width:1px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #989898;
+}
+
+#activePage{
+    color: #9400D3;
+}
+
+td{
+    padding: 0.5em;
+    
+}
+
+img{
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    margin: 5rem;
+    margin-bottom: 0.6rem !important;
+}
+
+
+
+#pageContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pictureAndName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right-style: solid;
+    border-right-color: #BEBEBE;
+    border-right-width: 1px;
+    flex: 1;    
+
+}
+
+a:hover{
+    color: #9400D3;
+}
+#title{
+    font-size: 20px;
+    margin: -8px;
+}
+#email, #resume, #pinterest{
+    color: #9400D3;
+}
+
+#whoIAm{
+    font: 19px !important;
+}
+
+#content{
+    padding: 4rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 2;
+}
+
+h5{
+    font-size: 40px;
+    margin-top: -14px !important;
+    margin-bottom: 3rem;
+}
+
+#skills{
+    padding: 0.2rem;
+}
+
+h3{
+    font-size: 18px;
+    color: #494949;
+}
+progress{
+    height: 27px;
+    width: 100%;
+}
+
+li{
+    padding-bottom: 10px;
+    font-size: 19px;
+    list-style-type: none;      
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#container-left{  
+    justify-content: flex-start;
+    flex: 1;
+}
+#container-right{
+    flex: 1;
+    justify-content: flex-end;
+    text-align: right;
+
+}
+
+#companyTitle, #date{
+    font-size: 23px;
+    margin-top: -10px;
+    margin-bottom: -7px;
+    color: #494949;
+}
+
+#companyTitle{
+    font-weight: bolder;
+    color: #494949  ;
+}
+
+#credentials{
+    margin-top: 75px;
+    color: #7c7c7c;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    border-top-style: solid;
+    border-top-color:#BEBEBE;
+    border-width:1px;
+    color: #7c7c7c ;
+    position: relative;
+}
+
+#content{
+    display: flex;
+}
+@media only screen and (max-width: 750px) {
+    #pageContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+    #content h5{
+        align-self: center;
+    }
+  }
